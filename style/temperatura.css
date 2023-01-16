@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-image: linear-gradient(to right, rgb(253, 0, 21), rgb(253, 53, 103));
+}
+
+.circle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -30px;
+    left: 0;
+    background: linear-gradient(55deg, rgb(253, 0, 21), #f5ebec);
+    clip-path: circle(40% at left 20%);
+    z-index: -1;
+}
+
+.circle01 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -30px;
+    left: 0;
+    background: linear-gradient(55deg, #f5ebec, rgb(253, 0, 21));
+    clip-path: circle(35% at right 70%);
+    z-index: -1;
+}
+
+#titulo {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#titulo::before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid white;
+    width: 420px;
+    left: 650px;
+    top: 55px;
+}
+
+#sub-titulo {
+    text-align: center;
+    font-size: 30px;
+}
+
+#btnZerar {
+    padding: 8px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#btnZerar::hover {
+    box-shadow: 0px 10px 40px -12px #000000;
+}
+
+#conteudos {
+    margin-left: 900px;
+    margin-top: 150px;
+}
+
+.form-group {
+    text-align: center;
+    margin-left: -50px;
+    margin-right: 820px;
+    border: 3px solid black;
+}

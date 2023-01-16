@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+#titulo::before {
+    content: '';
+    position: absolute;
+    border: solid 3px red;
+    width: 200px;
+    top: 75px;
+}
+
+#placar {
+    width: 100px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.badge {
+    font-size: 150px;
+    margin-left: -20px;
+}
+
+#btnPlacar {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnColor {
+    width: 130px;
+    height: 40px;
+    letter-spacing: 3px;
+    background-color: red;
+    color: white;
+}
+
+#btnReset {
+    width: 130px;
+    height: 40px;
+    letter-spacing: 3px;
+    background-color: red;
+    color: white;
+}
+
+#btnDecrease {
+    width: 130px;
+    height: 40px;
+    letter-spacing: 3px;
+    background-color: red;
+    color: white;
+}
