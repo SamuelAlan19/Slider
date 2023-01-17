@@ -32,18 +32,21 @@ function carousel() {
     });
 }
 
-// setInterval(function () {
-//     nextImage();
-// }, 2000)
+setInterval(function () {
+    nextImage();
+}, 8000)
 
-// function nextImage() {
-//     counter++;
-//     if (counter => 5) {
-//         counter = 0;
-//     }
+function nextImage() {
+    if (counter < 4) {
+        counter++;
+    } else {
+        counter = 0; 
+    }
 
-//     slides.forEach(function (slide) {
-//         slide.style.transform = `translateX(-${counter * 100}%)`;
-//     });
-// }
+    slides.forEach(function (slide) {
+        slide.style.transform = `translateX(-${counter * 100}%)`;
+    });
+    
+}
+
 
